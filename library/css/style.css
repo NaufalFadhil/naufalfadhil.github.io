@@ -1,9 +1,11 @@
-.btn:hover {
+.btn-link:hover {
     background-color: white;
     color: black;
 }
 
-/* .btn-dark:hover {
-    background-color: #007bff;
+.btn-link {
     color: white;
-} */
+    min-width: 350px;
+    min-height: 50px;
+    border-radius: 25px;
+}
