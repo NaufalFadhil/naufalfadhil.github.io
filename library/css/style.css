@@ -1,3 +1,7 @@
+body {
+    background-color: #000;
+}
+
 .btn-link:hover {
     background-color: white;
     color: black;
@@ -12,4 +16,24 @@
 
 .modal {
     color: black;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.img-rounded {}
+
+.mih800 {
+    min-height: 2000px;
+}
+
+.breakpoint {
+    margin-top: 100px;
+}
+
+.sosmed-image {
+    width: 30px;
+    height: 30px;
+    float: left;
 }
