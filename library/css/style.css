@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    color: #fff;
 }
 
 .btn-link:hover {
@@ -21,8 +22,6 @@ body {
 .bg-black {
     background-color: #000;
 }
-
-.img-rounded {}
 
 .mih800 {
     min-height: 2000px;
