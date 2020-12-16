@@ -40,3 +40,18 @@ body {
 .mt-02 {
     margin-top: 2px;
 }
+
+/* HEADER */
+header {
+    min-height: 700px;
+}
+
+/* .judul hr {
+    text-align: center;
+} */
+hr {
+    text-align: center !important;
+    width: 40%;
+    border-top: 50px solid red;
+}
+/* HEADER */
