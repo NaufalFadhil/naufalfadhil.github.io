@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Club Finder</title>
+    <title>Certificate | NaufalFadhil</title>
     <link rel="stylesheet" href="../library/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="src/styles/style.css"> -->
+    <link rel="stylesheet" href="src/styles/searchbar.css">
     <style>
-        img  {
-            float: right;
-            }
+        body {
+            background-color: black;
+            color: black;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <div id="appBar" class="app-bar">
-            <h2>Club Finder</h2>
-        </div>
-    </header>
     <main>
-        <div id="search-container" class="search-container">
-            <input placeholder="Search football club" id="searchElement" type="search">
-            <button id="searchButtonElement" type="submit">Search</button>
+        <div class="container">
+            <div id="search-container" class="search-container mt-3 mb-3 text-center">
+                <input placeholder="Search Certificates (ex: Android, Web, Course, Webinar, Google)" id="searchElement" type="search">
+                <button id="searchButtonElement" type="submit" class="btn btn-primary">Search</button>
+            </div>
         </div>
 
         <div class="container">
-            <div id="clubList"></div>
+            <div id="certificateList"></div>
+
+            <div id="search-external-container" class="search-external-container m-2 text-center">
+                <a href="https://www.credential.net/profile/naufalfadhilathallah/wallet" class="btn btn-danger">See more on credential.net</a>
+            </div>
         </div>
+
+        
     </main>
     
     <script src="src/script/data/certificates.js"></script>

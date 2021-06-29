@@ -1,5 +1,5 @@
 .search-container {
-    max-width: 800px;
+    max-width: 2000px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     border-radius: 5px;
@@ -9,7 +9,7 @@
     background-color: white;
 }
 
-.search-container > input {
+.search-container>input {
     width: 75%;
     padding: 16px;
     border: 0;
@@ -17,21 +17,21 @@
     font-weight: bold;
 }
 
-.search-container > input:focus {
+.search-container>input:focus {
     outline: 0;
     border-bottom: 2px solid cornflowerblue;
 }
 
-.search-container > input:focus::placeholder {
+.search-container>input:focus::placeholder {
     font-weight: bold;
 }
 
-.search-container >  input::placeholder {
+.search-container>input::placeholder {
     color: cornflowerblue;
     font-weight: normal;
 }
 
-.search-container > button {
+.search-container>button {
     width: 23%;
     cursor: pointer;
     margin-left: auto;
@@ -42,18 +42,37 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 550px){
+.search-external-container {
+    max-width: 2000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    position: sticky;
+    top: 10px;
+    background-color: black;
+}
+
+.search-external-container>a {
+    width: 100%;
+    padding: 16px;
+    border: 0;
+    border-bottom: 1px solid rgb(78, 18, 18);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
     .search-container {
         flex-direction: column;
         position: static;
     }
 
-    .search-container > input {
+    .search-container>input {
         width: 100%;
         margin-bottom: 12px;
     }
 
-    .search-container > button {
+    .search-container>button {
         width: 100%;
     }
 }
