@@ -1,5 +1,4 @@
 var certificates = [
-    
     {
         type: "Webinar",
         media: "-",
