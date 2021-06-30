@@ -6,20 +6,21 @@
     display: flex;
     position: sticky;
     top: 10px;
-    background-color: white;
+    color: white;
 }
 
 .search-container>input {
     width: 75%;
     padding: 16px;
     border: 0;
-    border-bottom: 1px solid cornflowerblue;
+    border-bottom: 1px solid white;
     font-weight: bold;
+    color: white;
 }
 
 .search-container>input:focus {
     outline: 0;
-    border-bottom: 2px solid cornflowerblue;
+    border-bottom: 2px solid white;
 }
 
 .search-container>input:focus::placeholder {
@@ -27,7 +28,7 @@
 }
 
 .search-container>input::placeholder {
-    color: cornflowerblue;
+    color: white;
     font-weight: normal;
 }
 

@@ -1,16 +1,5 @@
 var certificates = [
     {
-        type: "Webinar",
-        media: "-",
-        title: "Sosialisasi Program Kreativitas Mahasiswa untuk Pendanaan Tahun 2021",
-        issuer: "Gunadarma University",
-        issuerOn: "19 November 2020",
-        expiresOn: "-",
-        image: "../img/certificates/S_2020_UG_Sosialisasi PKM.jpg",
-        link: "#",
-        disabledButton: "disabled"
-    },
-    {
         type: "Course",
         media: "Python Native",
         title: "Memulai Pemrograman Dengan Python",
@@ -77,6 +66,17 @@ var certificates = [
         disabledButton: ""
     },
     {
+        type: "Webinar",
+        media: "-",
+        title: "Sosialisasi Program Kreativitas Mahasiswa untuk Pendanaan Tahun 2021",
+        issuer: "Gunadarma University",
+        issuerOn: "19 November 2020",
+        expiresOn: "-",
+        image: "../img/certificates/S_2020_UG_Sosialisasi PKM.jpg",
+        link: "#",
+        disabledButton: "disabled"
+    },
+    {
         type: "Course",
         media: "Azure Cloud",
         title: "Belajar Dasar-Dasar Azure Cloud",
@@ -118,17 +118,6 @@ var certificates = [
         expiresOn: "-",
         image: "../img/certificates/C_2019_SOLOLEARN JAVA.jpg",
         link: "https://www.sololearn.com/Certificate/1068-11439316/jpg/",
-        disabledButton: ""
-    },
-    {
-        type: "Course",
-        media: "Azure Cloud",
-        title: "https://www.dicoding.com/certificates/L4PQM8J6VZO1",
-        issuer: "Dicoding Indonesia",
-        issuerOn: "27 December 2019",
-        expiresOn: "27 December 2022",
-        image: "../img/certificates/C_2019_Dicoding_Dasar Dasar Azure Cloud.jpg",
-        link: "https://www.dicoding.com/certificates/L4PQM8J6VZO1",
         disabledButton: ""
     },
     {

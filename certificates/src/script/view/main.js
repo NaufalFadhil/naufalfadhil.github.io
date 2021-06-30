@@ -23,19 +23,19 @@ var main = function () {
 
 
             var certificateElement = document.createElement("div");
-            certificateElement.setAttribute("class", "card mb-3");
+            certificateElement.setAttribute("class", "card mb-3 bg-dark text-white");
 
             certificateElement.innerHTML = '<div class="row no-gutters">'+
-                '<div class="col-md-5">'+
+                '<div class="col-md-6">'+
                     '<a href="' + image + '" target="_blank">'+
                         '<img src="' + image + '" class="card-img-top" alt="' + title + '\'s Sertificates" width="5000px">'+
                     '</a>'+
                 '</div>'+
                 '<div class="col-md-6">'+
                     '<div class="card-body">'+
-                        '<h5 class="card-title">' + title + '</h5>'+
-                        '<p class="card-text">' + type + ' certificates by ' + issuer + 
-                        '<p class="card-text"><small class="text-muted">Issuer On: ' + issuerOn + '<br> Expires On: ' + expiresOn + '</small></p>'+
+                        '<h3 class="card-title">' + title + '</h3>'+
+                        '<p class="card-text">' + type + ' Certificate from <strong>' + issuer + '</strong></p>' +
+                        '<p class="card-text"><small class="text-white">Issuer On: ' + issuerOn + '<br> Expires On: ' + expiresOn + '</small></p>'+
                         '<form action="'+ link +'">'+
                             '<button onclick="window.location.href=' + link +'" type="submit" class="btn btn-primary"' + disabledButton +'>Issuer Verification</button>'+
                         '</form>'

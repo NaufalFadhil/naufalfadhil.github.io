@@ -9,15 +9,15 @@
     <style>
         body {
             background-color: black;
-            color: black;
+            color: white;
         }
     </style>
 </head>
 <body>
     <main>
         <div class="container">
-            <div id="search-container" class="search-container mt-3 mb-3 text-center">
-                <input placeholder="Search Certificates (ex: Android, Web, Course, Webinar, Google)" id="searchElement" type="search">
+            <div id="search-container" class="search-container my-5 text-center bg-dark">
+                <input placeholder="Search Certificate (ex: Android, Course, Webinar, Google)" id="searchElement" type="search" class="bg-dark">
                 <button id="searchButtonElement" type="submit" class="btn btn-primary">Search</button>
             </div>
         </div>
@@ -25,12 +25,10 @@
         <div class="container">
             <div id="certificateList"></div>
 
-            <div id="search-external-container" class="search-external-container m-2 text-center">
-                <a href="https://www.credential.net/profile/naufalfadhilathallah/wallet" class="btn btn-danger">See more on credential.net</a>
+            <div id="search-external-container" class="search-external-container my-5 text-center">
+                <a href="https://bit.ly/2SBDdjn" class="btn btn-danger">See more on credential.net</a>
             </div>
-        </div>
-
-        
+        </div>        
     </main>
     
     <script src="src/script/data/certificates.js"></script>
