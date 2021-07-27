@@ -10,10 +10,16 @@
 
 body {
     font-family: sans-serif;
+    background-color: #1B262C;
 }
 
 main {
     width: 90%;
     max-width: 800px;
     margin: 32px auto;
+}
+
+
+.bg-dark {
+    background-color: #BBE1FA;
 }

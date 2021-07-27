@@ -35,7 +35,7 @@ var main = function () {
                     '<div class="card-body">'+
                         '<h3 class="card-title">' + title + '</h3>'+
                         '<p class="card-text">' + type + ' Certificate from <strong>' + issuer + '</strong></p>' +
-                        '<p class="card-text"><small class="text-white">Issuer On: ' + issuerOn + '<br> Expires On: ' + expiresOn + '</small></p>'+
+                        '<p class="card-text"><small>Issuer on : ' + issuerOn + '<br> Expires on : ' + expiresOn + '</small></p>'+
                         '<form action="'+ link +'">'+
                             '<button onclick="window.location.href=' + link +'" type="submit" class="btn btn-primary"' + disabledButton +'>Issuer Verification</button>'+
                         '</form>'
