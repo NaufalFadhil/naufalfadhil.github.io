@@ -85,104 +85,158 @@
             font-weight: bold;
         }
 
-        section {
+        /* section {
             margin-top: 150px;
-            min-height: 400px;
-        }
+            min-height: 200px;
+        } */
         p {
             color: #BBE1FA !important;
             font-family: 'Poppins', sans-serif;
+        }
+
+        .mt-10 {
+            margin-top: 100px;
         }
     </style>
     <title>Hello, world!</title>
 </head>
 <body>
-    <!-- Start: Navigation -->
-    <div class="container fixed-top">
-        <nav class="navbar bg-darkest border-5">
-            <div class="d-none d-md-block mt-3">
-                <a class="navbar-brand" href="#" class="">Naufal Fadhil</a>
-            </div>
-            <div class="d-none d-md-block">
-                <ul class="nav mt-3" >
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="blog/index.html">BLOG</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active" href="certificates/index.html">CERTIFICATE</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="project/index.html">PROJECT</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-md-none">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://naufalfadhil.github.io">
-                            <img src="img/logo/logo-home.svg">
+    <!-- Mode desktop -->
+    <div class="container d-none d-md-block">
+        <!-- Start: Navigation -->
+        <div class="container fixed-top">
+            <nav class="navbar bg-darkest border-5">
+                <div class="d-none d-md-block mt-3">
+                    <a class="navbar-brand" href="#" class="">Naufal Fadhil</a>
+                </div>
+                <div class="d-none d-md-block">
+                    <ul class="nav mt-3" >
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="blog/index.html">BLOG</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" href="certificates/index.html">CERTIFICATE</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="project/index.html">PROJECT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-md-none">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://naufalfadhil.github.io">
+                                <img src="img/logo/logo-home.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog/index.html">
+                                <img src="img/logo/logo-blog.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificates/index.html"><img src="img/logo/logo-certificate.svg"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project/index.html"><img src="img/logo/logo-project.svg"></a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="img/me/N_logo_transparant.png" width="30" alt="Lampu logo" class="mt-3 me-4 d-none d-md-block">
+            </nav>
+        </div>
+        <!-- End: Navigation -->
+
+        <header>
+            <div class="container d-none d-md-block mb-0">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <h1 class="name"><span class="color-dark">NAUFAL</span><br>FADHIL<br><span class="color-dark">ATHALLAH</span></h1>
+                        <h3>Developer | Student | Alien</h3>
+                        <a href="cdn/file/Resume-NaufalFadhilAthallah.pdf">
+                            <div class="btn bg-dark mt-3">
+                                DOWNLOAD RESUME
+                            </div>
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog/index.html">
-                            <img src="img/logo/logo-blog.svg">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="certificates/index.html"><img src="img/logo/logo-certificate.svg"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="project/index.html"><img src="img/logo/logo-project.svg"></a>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="col">
+                        <img src="img/me/photo-hotel.svg" width="400" alt="Lampu logo" class="mt-3 me-4 d-none d-md-block">
+                    </div>
+                </div>
             </div>
-            <img src="img/me/N_logo_transparant.png" width="30" alt="Lampu logo" class="mt-3 me-4 d-none d-md-block">
-        </nav>
+        </header>
+
+        <section id="summary">
+            <div class="container mt-10">
+                <h2 class="title">Summary</h2>
+                <div class="row">
+                    <div class="col-sm-2 d-none d-md-block"></div>
+                    <div class="col-sm-8 d-none d-md-block"><p class="text-center">Hello World! My name is Naufal Fadhil, I’m infromatics engineering student at Gunadarma University. 
+                        <br>I love collaboration, challenge, competition, learn technologies & create a new things to problem solve. 
+                        <br>I learn technology by self-taught, learning about out of college curriculum. 
+                        <br>I have a good and fast understanding for learn new knowledge.
+                        <br>I can use all technologies but I’m only professionally in web developer.</p></div>
+                    <div class="col-sm-2 d-none d-md-block"></div>
+                    <div class="d-md-none"><p>Hello World! My name is Naufal Fadhil, I’m infromatics engineering student at Gunadarma University. 
+                        I love collaboration, challenge, competition, learn technologies and create a new things 
+                        to problem solve. 
+                        I like learn technology by self-taught, learning about out of college curriculum. 
+                        I have a good and fast understanding for learn new knowledge.
+                        I can use all technologies but I’m only professionally in web developer.</p></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="education" class="align-content-center">
+            <div class="container align-content-center  text-center my-5 d-none d-md-block">
+                <h2 class="title m-3">Education</h2>
+                <img src="img/EDUCATION SECTION.svg" alt="Education Image" width="50%">
+            </div>
+            <div class="container align-content-center text-center my-5 d-block d-md-none">
+                <h2 class="title m-3">Education</h2>
+                <img src="img/section-education-phone.svg" alt="Education Image" width="100%">
+            </div>
+        </section>
     </div>
-    <!-- End: Navigation -->
 
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7">
-                    <h1 class="name"><span class="color-dark">NAUFAL</span><br>FADHIL<br><span class="color-dark">ATHALLAH</span></h1>
-                    <h3>Developer | Student | Alien</h3>
-                    <a href="cdn/file/Resume-NaufalFadhilAthallah.pdf">
-                        <div class="btn bg-dark mt-3">
-                            DOWNLOAD RESUME
-                        </div>
+    <!-- Mode mobile -->
+    <div class="container d-block d-md-none">
+        <!-- Start: Navigation -->
+        <nav class="navbar bg-darkest border-5 fixed-top">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://naufalfadhil.github.io">
+                        <img src="img/logo/logo-home.svg">
                     </a>
-                </div>
-                <div class="col">
-                    <img src="img/me/photo-hotel.svg" width="400" alt="Lampu logo" class="mt-3 me-4 d-none d-md-block">
-                </div>
-            </div>
-            
-        </div>
-    </header>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog/index.html">
+                        <img src="img/logo/logo-blog.svg">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="certificates/index.html"><img src="img/logo/logo-certificate.svg"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project/index.html"><img src="img/logo/logo-project.svg"></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End: Navigation -->
 
 
-    <section id="summary">
-        <div class="container">
-            <h2 class="title m-3">Summary</h2>
-            <div class="row">
-                <div class="col-sm-2 d-none d-md-block"></div>
-                <div class="col-sm-8 d-none d-md-block"><p class="text-center">Hello World! My name is Naufal Fadhil, I’m infromatics engineering student at Gunadarma University. 
-                    <br>I love collaboration, challenge, competition, learn technologies and create a new things 
-                    to problem solve. 
-                    <br>I like learn technology by self-taught, learning about out of college curriculum. 
-                    <br>I have a good and fast understanding for learn new knowledge.
-                    <br>I can use all technologies but I’m only professionally in web developer.</p></div>
-                <div class="col-sm-2 d-none d-md-block"></div>
-                <div class="d-md-none"><p>Hello World! My name is Naufal Fadhil, I’m infromatics engineering student at Gunadarma University. 
-                    I love collaboration, challenge, competition, learn technologies and create a new things 
-                    to problem solve. 
-                    I like learn technology by self-taught, learning about out of college curriculum. 
-                    I have a good and fast understanding for learn new knowledge.
-                    I can use all technologies but I’m only professionally in web developer.</p></div>
+        <section id="education" class="align-content-center">
+            <div class="container align-content-center  text-center my-5 d-none d-md-block">
+                <h2 class="title m-3">Education</h2>
+                <img src="img/EDUCATION SECTION.svg" alt="Education Image" width="50%">
             </div>
-        </div>
-    </section>
+            <div class="container align-content-center text-center my-5 d-block d-md-none">
+                <h2 class="title m-3">Education</h2>
+                <img src="img/section-education-phone.svg" alt="Education Image" width="100%">
+            </div>
+        </section>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
