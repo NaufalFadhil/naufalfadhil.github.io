@@ -85,6 +85,19 @@
             font-weight: bold;
         }
 
+        .nata-text{
+            color: #BBE1FA !important;
+        }
+        .nata-text-primary {
+            color: #1B262C !important;
+        }
+        .nata-text-secondary {
+            color: #0F4C75 !important;
+        }
+        .nata-text-thirdy {
+            color: #3282B8 !important;
+        }
+
         /* section {
             margin-top: 150px;
             min-height: 200px;
@@ -236,6 +249,57 @@
                 <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white" class="m-2">
             </p>
         </section>
+
+        <section id="desktop-contact">
+            <h2 class="title m-3">
+                Contact
+            </h2>
+            <div class="row mb-5">
+                <div class="col-sm-6 mt-4">
+                    <p class="nata-text">
+                        Please contact me via email in form message if you want to contact me for a bussiness.
+                    </p>
+                    <p class="nata-text">
+                        If you want to message me as anonym for say hello / ask/ support / critics / hate / impression / love me. You can check the checkbox "Anonym?" it will directed you to www.secreto.site everyone can see your message also.
+                    </p>
+                    <p class="nata-text">
+                        If you want to fast respon for ask me you can contact me via social media.
+                    </p>
+                    <a href="https://bit.ly/NaufalFadhil-Instagram" style="text-decoration: none;" class="mx-3">
+                        <img src="https://img.shields.io/badge/INSTAGRAM-purple.svg?style=for-the-badge&logo=instagram&logoColor=white">
+                    </a>
+                    <a href="https://bit.ly/3ya3h4p" style="text-decoration: none;" class="mx-3">
+                        <img src="https://img.shields.io/badge/TWITTER-blue.svg?style=for-the-badge&logo=twitter&logoColor=white">
+                    </a>
+                    <a href="https://bit.ly/NaufalFadhil-LinkedIn" style="text-decoration: none;" class="mx-3">
+                        <img src="https://img.shields.io/badge/LINKEDIN-blue.svg?style=for-the-badge&logo=linkedin&logoColor=white">
+                    </a>
+                    <p class="nata-text-thirdy mt-2">
+                        Stay Safe, Stay Healty! You have a familiy and Your family need you! <br>Wear your medical mask Okay?!
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <form >
+                        <!-- <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label nata-text">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div> -->
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label nata-text">Message</label>
+                            <!-- <input type="text" class="form-control" id="exampleInputPassword1"> -->
+                            <br>
+                            <textarea name="message" id="yourMessage" cols="85%" rows="8"></textarea>
+                        </div>
+                            <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="anonymCheck">
+                            <label class="form-check-label nata-text" for="anonymCheck">Anonym? it will send to secreto.site</label>
+                        </div>
+                        <button onclick="sendMail(); return false" class="btn btn-outline-primary">Submit</button>
+                        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 
 
@@ -293,6 +357,20 @@
             </div>
         </section>
     </div>
+
+    <script>
+        function sendMail() {
+            const checkbox = document.querySelector('#anonymCheck');
+            if (checkbox.checked) {
+                window.location.href = "https://secreto.site/en/20614123";
+            } else {
+                var link = "mailto:hello.naufalfadhil@gmail.com"
+                    + "?subject=" + encodeURIComponent("Contact Naufal Fadhil Athallah")
+                    + "&body=" + encodeURIComponent(document.getElementById('yourMessage').value);
+                window.location.href = link;
+            }
+        }
+    </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
