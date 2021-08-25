@@ -1,0 +1,80 @@
+.search-container {
+    max-width: 2000px;
+    box-shadow: 0 4px 8px 0 #1B262C;
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    position: sticky;
+    top: 10px;
+    color: #1B262C;
+}
+
+.search-container>input {
+    width: 75%;
+    padding: 16px;
+    border: 0;
+    border-bottom: 1px solid #1B262C;
+    font-weight: bold;
+    color: #1B262C;
+}
+
+.search-container>input:focus {
+    outline: 0;
+    border-bottom: 2px solid #1B262C;
+}
+
+.search-container>input:focus::placeholder {
+    font-weight: bold;
+}
+
+.search-container>input::placeholder {
+    color: #1B262C;
+    font-weight: normal;
+}
+
+.search-container>button {
+    width: 23%;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 16px;
+    background-color: #BBE1FA;
+    color: #1B262C;
+    font-weight: bold;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.search-external-container {
+    max-width: 2000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    position: sticky;
+    top: 10px;
+    background-color: black;
+}
+
+.search-external-container>a {
+    width: 100%;
+    padding: 16px;
+    border: 0;
+    border-bottom: 1px solid rgb(78, 18, 18);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .search-container {
+        flex-direction: column;
+        position: static;
+    }
+
+    .search-container>input {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .search-container>button {
+        width: 100%;
+    }
+}

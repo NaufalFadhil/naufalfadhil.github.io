@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Items | NaufalFadhil</title>
+    <link rel="stylesheet" href="../library/css/bootstrap.css">
+    <link rel="stylesheet" href="src/styles/searchbar.css">
+    <style>
+        body, .search-external-container {
+            background-color: #1B262C;
+            color: #BBE1FA;
+        }
+
+        .bg-dark, .card-text {
+            background-color: #BBE1FA !important;
+            color: #0F4C75 !important;
+        }
+        /* .bg-dark, .card-text {
+            background-color: #0F4C75 !important;
+            color: #BBE1FA !important;
+        } */
+
+        .btn-primary {
+            background-color: #1B262C !important;
+            color: #BBE1FA !important;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="search-container" class="search-container my-5 text-center bg-dark">
+                <input placeholder="Search Item (ex: Android, Course, Webinar, Google)" id="searchElement" type="search" class="bg-dark">
+                <button id="searchButtonElement" type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="itemList"></div>
+        </div>        
+    </main>
+    
+    <script src="src/script/data/items.js"></script>
+    <script src="src/script/data/data-source.js"></script>
+    <script src="src/script/view/main.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
