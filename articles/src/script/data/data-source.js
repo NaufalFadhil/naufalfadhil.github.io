@@ -6,9 +6,10 @@ function DataSource(onSuccess, onFailed) {
 DataSource.prototype.searchItem = function (keyword) {
     var filteredItems = items.filter(function (item) {
         return item.title.toUpperCase().includes(keyword.toUpperCase()) || 
-        item.type.toUpperCase().includes(keyword.toUpperCase()) ||
         item.media.toUpperCase().includes(keyword.toUpperCase()) ||
-        item.issuer.toUpperCase().includes(keyword.toUpperCase());
+        item.tag.toUpperCase().includes(keyword.toUpperCase()) ||
+        item.publisher.toUpperCase().includes(keyword.toUpperCase());
+        item.published.toUpperCase().includes(keyword.toUpperCase());
     });
 
     if (filteredItems.length) {
