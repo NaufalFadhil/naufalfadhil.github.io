@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Items | NaufalFadhil</title>
+    <title>Article | NaufalFadhil</title>
     <link rel="stylesheet" href="../library/css/bootstrap.css">
     <link rel="stylesheet" href="src/styles/searchbar.css">
     <style>
@@ -35,13 +35,18 @@
             color: #0F4C75 !important; 
             text-decoration: none;
         }
+
+        /* Dotted border */
+        hr.dashed {
+            border-top: 3px dashed #829cad;
+        }
     </style>
 </head>
 <body>
     <main>
         <div class="container">
             <div id="search-container" class="search-container my-5 text-center bg-dark">
-                <input placeholder="Search Item (ex: Android, Course, Webinar, Google)" id="searchElement" type="search" class="bg-dark">
+                <input placeholder="Search articles by title, medium, tag" id="searchElement" type="search" class="bg-dark">
                 <button id="searchButtonElement" type="submit" class="btn btn-primary">Search</button>
             </div>
         </div>

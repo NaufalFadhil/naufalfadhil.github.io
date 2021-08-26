@@ -8,7 +8,6 @@ DataSource.prototype.searchItem = function (keyword) {
         return item.title.toUpperCase().includes(keyword.toUpperCase()) || 
         item.media.toUpperCase().includes(keyword.toUpperCase()) ||
         item.tag.toUpperCase().includes(keyword.toUpperCase()) ||
-        item.publisher.toUpperCase().includes(keyword.toUpperCase());
         item.published.toUpperCase().includes(keyword.toUpperCase());
     });
 

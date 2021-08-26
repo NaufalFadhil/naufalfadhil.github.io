@@ -25,12 +25,14 @@ var main = function () {
             itemElement.innerHTML = '<div class="row no-gutters">'+
                 '<div class="col-md-12">'+
                     '<a href="' + link + '">' +
-                        '<h2 class="title">' + title + '</h2>'+
+                        '<h3 class="title">' + title + '</h3>'+
                     '</a>'+
                         '<p class="text">'+
                             'Published on <strong>' + media + '</strong> at <strong>' + published + '</strong>' +
                             '</br>' +
                             '<strong>TAG:</strong> ' + tag +
+                            '</br>' +
+                            '<hr class="dashed"></hr>' +
                         '</p>' +
                 '</div>';
             itemListElement.appendChild(itemElement);
