@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #1B262C !important;
+}
+.navbar-brand {
+    color: #BBE1FA !important;
+    font-weight: bold;
+}
+
+.navbar {
+    /* background-color: #BBE1FA !important; */
+    color: #0F4C75 !important;
+    padding-bottom: 2%;
+}
+.nav-link {
+    color: #0F4C75 !important;
+    font-weight: bold;
+}
+
+.container-navbar {
+    max-width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.nav {
+    background-color: #BBE1FA !important;
+    border-radius: 25px;
+    margin: auto;
+}
+
+header {
+    margin-top: 150px;
+    color: #BBE1FA;
+}
+
+h1 {
+    font-size: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.color-dark {
+    color: #3282B8;
+    font-weight: bold;
+}
+
+.bg-dark {
+    background-color: #3282B8 !important;
+    color: #BBE1FA !important;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 125px 20px 125px;
+}
+
+.bg-darkest {
+    background-color: #1B262C !important;
+}
+
+.title {
+    color: #3282B8 !important;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.nata-text{
+    color: #BBE1FA !important;
+}
+.nata-text-primary {
+    color: #1B262C !important;
+}
+.nata-text-secondary {
+    color: #0F4C75 !important;
+}
+.nata-text-thirdy {
+    color: #3282B8 !important;
+}
+
+/* section {
+    margin-top: 150px;
+    min-height: 200px;
+} */
+p {
+    color: #BBE1FA !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+
+/* FOOTER */
+.copyright {
+    /* text-align: center;
+    width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+} 
+
+#desktop-footer nav div ul li p{
+    margin-bottom: -3px;
+    margin: auto;
+}
+
+img.images:hover {
+    min-width: 160px !important;
+}
+
+#features {
+    height: 170px !important;
+}
