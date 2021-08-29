@@ -7,6 +7,13 @@ var items = [
         tag: "Greeting"
     },
     {
+        title: "Hujan",
+        media: "Medium",
+        published: "29 August 2021",
+        link: "https://naufal-fadhil.medium.com/book-review-hujan-c852d108513c",
+        tag: "Book Review, Novel"
+    },
+    {
         title: "Coffee",
         media: "Medium",
         published: "13 Februaruy 2021",
