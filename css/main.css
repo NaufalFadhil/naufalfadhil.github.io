@@ -1,0 +1,76 @@
+body {
+  background-color: #1B262C;
+}
+
+h1 {
+  color: #BBE1FA;
+}
+
+.navbar-dark {
+  color: #BBE1FA;
+}
+
+.navbar-dark a {
+  color: #BBE1FA;
+}
+
+.bg-dark {
+  background-color: #1B262C !important;
+}
+
+.bg-dark a {
+  color: #BBE1FA;
+}
+
+nav.navbar .navbar-brand {
+  color: #BBE1FA;
+  font-weight: bold;
+}
+
+nav.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+nav.navbar .navbar-nav .nav-item a {
+  float: right !important;
+}
+
+nav.navbar .navbar-nav .nav-item a.nav-link {
+  color: #BBE1FA;
+}
+
+nav.navbar .navbar-nav .nav-item a.nav-link:hover {
+  color: #3282B8;
+}
+
+.mt-10 {
+  margin-top: 100px;
+}
+
+#support-page a {
+  text-decoration: none;
+}
+
+#support-page a .card {
+  background-color: #BBE1FA;
+  color: #1B262C;
+  padding: 70px;
+}
+
+#support-page a .card h1 {
+  color: #1B262C;
+}
+
+#support-page a .card.thanks {
+  background-color: #1B262C;
+  padding: 70px 0;
+}
+
+#support-page a:hover .card {
+  background-color: #1B262C;
+}
+
+#support-page a:hover .card h1 {
+  color: #BBE1FA;
+}
+/*# sourceMappingURL=main.css.map */

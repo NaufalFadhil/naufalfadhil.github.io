@@ -1,0 +1,89 @@
+$primary-color: #1B262C;
+$secondary-color: #0F4C75;
+$tertiary-color: #3282B8;
+$text-color: #BBE1FA;
+
+body {
+    background-color: $primary-color;
+}
+
+h1 {
+    color: $text-color;
+}
+
+
+// Start: Global
+.navbar-dark {
+    color: $text-color;
+    a {
+        color: $text-color;
+    }
+}
+
+.bg-dark {
+    background-color: $primary-color !important;
+    a {
+        color: $text-color;
+    }
+}
+
+nav {
+    &.navbar {
+        .navbar-brand {
+            color: $text-color;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            .nav-item {
+                position: relative;
+                a {
+                    float: right !important;
+                    &.nav-link {
+                        color: $text-color;
+                        &:hover {
+                            color: $tertiary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+// End: Global
+
+// Start: Support Pages
+#support-page {
+    a {
+        text-decoration: none;
+        
+        .card {
+            background-color: $text-color;
+            color: $primary-color;
+            padding: 70px ;
+        
+            h1 {
+                color: $primary-color;
+            }
+
+            &.thanks {
+                background-color: $primary-color;
+                padding: 70px 0;
+            }
+        }
+
+        &:hover {
+            .card {
+                background-color: $primary-color;
+            
+                h1 {
+                    color: $text-color;
+                }
+            }
+        }
+    } 
+}
+// End: Support Pages
