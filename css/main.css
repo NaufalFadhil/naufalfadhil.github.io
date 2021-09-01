@@ -73,4 +73,9 @@ nav.navbar .navbar-nav .nav-item a.nav-link:hover {
 #support-page a:hover .card h1 {
   color: #BBE1FA;
 }
+
+#project-page .card {
+  background-color: #3282B8;
+  color: #BBE1FA;
+}
 /*# sourceMappingURL=main.css.map */

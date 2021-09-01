@@ -87,3 +87,12 @@ nav {
     } 
 }
 // End: Support Pages
+
+
+#project-page {
+    .card {
+        background-color: $tertiary-color;
+        color: $text-color;
+        // box-shadow: 5px 5px 3px $text-color;
+    }
+}
