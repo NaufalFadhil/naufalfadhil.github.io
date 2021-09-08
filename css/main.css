@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   background-color: #1B262C;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   color: #BBE1FA;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .navbar-dark {
@@ -27,14 +36,6 @@ nav.navbar .navbar-brand {
   font-weight: bold;
 }
 
-nav.navbar .navbar-nav .nav-item {
-  position: relative;
-}
-
-nav.navbar .navbar-nav .nav-item a {
-  float: right !important;
-}
-
 nav.navbar .navbar-nav .nav-item a.nav-link {
   color: #BBE1FA;
 }
@@ -45,6 +46,87 @@ nav.navbar .navbar-nav .nav-item a.nav-link:hover {
 
 .mt-10 {
   margin-top: 100px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #3282B8;
+  /* Set a background color */
+  color: #BBE1FA;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+  font-weight: bold;
+}
+
+#myBtn:hover {
+  background-color: #0F4C75;
+  /* Add a dark-grey background on hover */
+  color: #BBE1FA;
+  font-weight: bold;
+}
+
+main.main-skills p, main.main-skills h1, main.main-skills h3 {
+  color: #BBE1FA;
+}
+
+main.main-skills h2 {
+  color: #BBE1FA;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+main.main-skills .card-group img {
+  margin-top: 30px;
+}
+
+main.main-skills .card-group .card {
+  background-color: #BBE1FA;
+  max-width: 14%;
+}
+
+main.main-skills .card-group .card a {
+  text-decoration: none;
+}
+
+main.main-skills .card-group .card h5 {
+  color: black;
+}
+
+main.main-skills .card-group .card .card-footer small {
+  font-weight: bold;
+}
+
+main.main-skills .card-group .card.top-skill-card:hover {
+  background-color: #0F4C75;
+  color: #1B262C;
+}
+
+main.main-skills .card-group .card.top-skill-card:hover .text-muted, main.main-skills .card-group .card.top-skill-card:hover .card-title {
+  color: #BBE1FA !important;
 }
 
 #support-page a {
@@ -77,5 +159,42 @@ nav.navbar .navbar-nav .nav-item a.nav-link:hover {
 #project-page .card {
   background-color: #3282B8;
   color: #BBE1FA;
+}
+
+@media (max-width: 992px) {
+  main.main-skills p, main.main-skills h1, main.main-skills h3 {
+    color: #BBE1FA;
+  }
+  main.main-skills h2 {
+    color: #BBE1FA;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  main.main-skills .card-group img {
+    margin-top: 30px;
+    max-width: 20%;
+  }
+  main.main-skills .card-group .card {
+    background-color: #BBE1FA;
+    max-width: 100%;
+  }
+  main.main-skills .card-group .card a {
+    text-decoration: none;
+  }
+  main.main-skills .card-group .card h5 {
+    color: black;
+    margin: 20px;
+    text-align: center !important;
+  }
+  main.main-skills .card-group .card .card-footer small {
+    font-weight: bold;
+  }
+  main.main-skills .card-group .card.top-skill-card:hover {
+    background-color: #3282B8;
+    color: #1B262C;
+  }
+  main.main-skills .card-group .card.top-skill-card:hover .text-muted, main.main-skills .card-group .card.top-skill-card:hover .card-title {
+    color: #BBE1FA !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 $primary-color: #1B262C;
 $secondary-color: #0F4C75;
 $tertiary-color: #3282B8;
 $text-color: #BBE1FA;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
 
 body {
     background-color: $primary-color;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -13,6 +21,12 @@ h1 {
 
 
 // Start: Global
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 .navbar-dark {
     color: $text-color;
     a {
@@ -35,9 +49,7 @@ nav {
         }
         .navbar-nav {
             .nav-item {
-                position: relative;
                 a {
-                    float: right !important;
                     &.nav-link {
                         color: $text-color;
                         &:hover {
@@ -53,7 +65,85 @@ nav {
 .mt-10 {
     margin-top: 100px;
 }
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: $tertiary-color; /* Set a background color */
+    color: $text-color; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-weight: bold;
+}
+
+#myBtn:hover {
+background-color: $secondary-color; /* Add a dark-grey background on hover */
+color: $text-color;
+font-weight: bold;
+}
+
 // End: Global
+
+// Start: Skill Pages
+main {
+    &.main-skills {
+        p, h1, h3 {
+            color: $text-color;
+        }
+
+        h2 {
+            color: $text-color;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .card-group {
+            img {
+                margin-top: 30px;
+            }
+            .card {
+                background-color: $text-color;
+                max-width: 14%;
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                h5 {
+                    color: black;
+                }
+                .card-footer {
+                    small {
+                        font-weight: bold;
+                    }
+                }
+
+                &.top-skill-card {
+                    &:hover {
+                        background-color: $secondary-color;
+                        color: $primary-color;
+                        .text-muted, .card-title {
+                            color: $text-color !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// End: Skill Pages
 
 // Start: Support Pages
 #support-page {
@@ -95,4 +185,59 @@ nav {
         color: $text-color;
         // box-shadow: 5px 5px 3px $text-color;
     }
+}
+
+
+@media (max-width: $breakpoint-lg) {
+    // Start: Skill Pages
+    main {
+        &.main-skills {
+            p, h1, h3 {
+                color: $text-color;
+            }
+
+            h2 {
+                color: $text-color;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+
+            .card-group {
+                img {
+                    margin-top: 30px;
+                    max-width: 20%;
+                }
+                .card {
+                    background-color: $text-color;
+                    max-width: 100%;
+                    
+                    a {
+                        text-decoration: none;
+                    }
+                    
+                    h5 {
+                        color: black;
+                        margin: 20px;
+                        text-align: center !important;
+                    }
+                    .card-footer {
+                        small {
+                            font-weight: bold;
+                        }
+                    }
+
+                    &.top-skill-card {
+                        &:hover {
+                            background-color: $tertiary-color;
+                            color: $primary-color;
+                            .text-muted, .card-title {
+                                color: $text-color !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // End: Skill Pages
 }
