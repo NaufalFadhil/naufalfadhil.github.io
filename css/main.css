@@ -89,6 +89,10 @@ nav.navbar .navbar-nav .nav-item a.nav-link:hover {
   font-weight: bold;
 }
 
+header#header-link h5 {
+  color: #BBE1FA;
+}
+
 main.main-skills p, main.main-skills h1, main.main-skills h3 {
   color: #BBE1FA;
 }
@@ -127,6 +131,38 @@ main.main-skills .card-group .card.top-skill-card:hover {
 
 main.main-skills .card-group .card.top-skill-card:hover .text-muted, main.main-skills .card-group .card.top-skill-card:hover .card-title {
   color: #BBE1FA !important;
+}
+
+main#main-link a, main#main-link button {
+  text-decoration: none;
+  color: #BBE1FA;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  padding-top: 13px;
+}
+
+main#main-link a:hover, main#main-link button:hover {
+  background-color: #BBE1FA !important;
+  color: #1B262C !important;
+}
+
+main#main-link a.btn-sec, main#main-link button.btn-sec {
+  background-color: #0F4C75;
+}
+
+main#main-link a.btn-ter, main#main-link button.btn-ter {
+  background-color: #3282B8;
+}
+
+main#main-link a.btn-danger, main#main-link button.btn-danger {
+  color: #1B262C;
+  font-weight: bold;
+}
+
+main#main-link a.btn-danger:hover, main#main-link button.btn-danger:hover {
+  color: #1B262C;
+  font-weight: bold;
 }
 
 #support-page a {

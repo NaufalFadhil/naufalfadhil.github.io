@@ -96,7 +96,15 @@ font-weight: bold;
 
 // End: Global
 
-// Start: Skill Pages
+
+header {
+    &#header-link {
+        h5 {
+            color: $text-color;
+        }
+    }
+}
+
 main {
     &.main-skills {
         p, h1, h3 {
@@ -142,8 +150,41 @@ main {
             }
         }
     }
+
+    &#main-link {     
+        a, button {
+            text-decoration: none;
+            color: $text-color;
+            width: 250px;
+            height: 50px;
+            border-radius: 25px;
+            padding-top: 13px;
+            
+
+            &:hover {
+                background-color: $text-color !important;
+                color: $primary-color !important;
+            }
+
+            &.btn-sec {
+                background-color: $secondary-color;
+            }
+
+            &.btn-ter {
+                background-color: $tertiary-color;
+            }
+
+            &.btn-danger {
+                color: $primary-color;
+                font-weight: bold;
+                &:hover {
+                    color: $primary-color;
+                    font-weight: bold;
+                }
+            }
+        }   
+    }
 }
-// End: Skill Pages
 
 // Start: Support Pages
 #support-page {
@@ -177,7 +218,6 @@ main {
     } 
 }
 // End: Support Pages
-
 
 #project-page {
     .card {
