@@ -184,6 +184,43 @@ main {
             }
         }   
     }
+
+    &#main-achievements {
+        .card {
+            background-color: $secondary-color;
+            color: $text-color;
+            
+            img {
+                display: block;
+                // margin: 10%;
+                margin-left: auto;
+                margin-right: auto;
+                // width: 100%;
+                height: 150px;
+                text-align: center;
+                padding: 10%;
+            }
+            .card-body {
+                // display: flex;
+                // flex-wrap: nowrap;
+                max-height: 180px;
+                h5 {
+                    justify-content: center;
+                    span {
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+                }
+                p {
+                    justify-content: center;
+                    .text-muted {
+                        color: $tertiary-color !important;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Start: Support Pages
