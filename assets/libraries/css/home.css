@@ -54,6 +54,20 @@ h1 {
     padding: 20px 125px 20px 125px;
 }
 
+.bg-dark:hover {
+    background-color: #BBE1FA !important;
+    color: #1B262C !important;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 125px 20px 125px;
+}
+
+.btn-outline-primary {
+    background-color: #BBE1FA !important;
+    color: #1B262C;
+    font-weight: bold;
+}
+
 .bg-darkest {
     background-color: #1B262C !important;
 }
@@ -65,6 +79,10 @@ h1 {
     font-weight: bold;
 }
 
+a.hoverin:hover {
+    background-color: #BBE1FA !important;
+    color: #1B262C !important;
+}
 .nata-text{
     color: #BBE1FA !important;
 }

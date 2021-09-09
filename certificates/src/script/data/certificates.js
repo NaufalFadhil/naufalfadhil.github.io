@@ -6,7 +6,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "10 Mei 2020",
         expiresOn: "10 Mei 2023",
-        image: "../img/certificates/C_2020_Dicoding_Memulai Pemrograman Dengan Python.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Memulai Pemrograman Dengan Python.jpg",
         link: "https://www.dicoding.com/certificates/72ZD278W9ZYW",
         disabledButton: ""
     },
@@ -17,7 +17,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "02 April 2020",
         expiresOn: "02 April 2023",
-        image: "../img/certificates/C_2020_Dicoding_Memulai Pemrograman Dengan Kotlin.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Memulai Pemrograman Dengan Kotlin.jpg",
         link: "https://www.dicoding.com/certificates/MRZMGL65NZYQ",
         disabledButton: ""
     },
@@ -28,7 +28,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "31 Juli 2020",
         expiresOn: "31 Juli 2023",
-        image: "../img/certificates/C_2020_Dicoding_Machine Learning Pemula.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Machine Learning Pemula.jpg",
         link: "https://www.dicoding.com/certificates/EYX4RY65OXDL",
         disabledButton: ""
     },
@@ -39,7 +39,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "16 January 2020",
         expiresOn: "16 January 2023",
-        image: "../img/certificates/C_2020_Dicoding_Line Front End Framework.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Line Front End Framework.jpg",
         link: "https://www.dicoding.com/certificates/QLZ98REQDX5D",
         disabledButton: ""
     },
@@ -50,7 +50,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "30 April 2020",
         expiresOn: "30 April 2023",
-        image: "../img/certificates/C_2020_Dicoding_Fundamental Front End Web Development.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Fundamental Front End Web Development.jpg",
         link: "https://www.dicoding.com/certificates/2VX3N65WJXYQ",
         disabledButton: ""
     },
@@ -61,7 +61,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "22 May 2020",
         expiresOn: "22 May 2023",
-        image: "../img/certificates/C_2020_Dicoding_Dasar Visualisasi Data.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Dasar Visualisasi Data.jpg",
         link: "https://www.dicoding.com/certificates/1RXY406VMPVM",
         disabledButton: ""
     },
@@ -72,7 +72,7 @@ var certificates = [
         issuer: "Gunadarma University",
         issuerOn: "19 November 2020",
         expiresOn: "-",
-        image: "../img/certificates/S_2020_UG_Sosialisasi PKM.jpg",
+        image: "../assets/images/certificates/S_2020_UG_Sosialisasi PKM.jpg",
         link: "#",
         disabledButton: "disabled"
     },
@@ -83,7 +83,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "27 December 2019",
         expiresOn: "27 December 2022",
-        image: "../img/certificates/C_2019_Dicoding_Dasar Dasar Azure Cloud.jpg",
+        image: "../assets/images/certificates/C_2019_Dicoding_Dasar Dasar Azure Cloud.jpg",
         link: "https://www.dicoding.com/certificates/L4PQM8J6VZO1",
         disabledButton: ""
     },
@@ -94,7 +94,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "27 December 2019",
         expiresOn: "27 December 2022",
-        image: "../img/certificates/C_2020_Dicoding_Belajar Membuat Aplikasi Android Untuk Pemula.jpg",
+        image: "../assets/images/certificates/C_2020_Dicoding_Belajar Membuat Aplikasi Android Untuk Pemula.jpg",
         link:"https://www.dicoding.com/certificates/2VX3N6EJJXYQ",
         disabledButton: ""
     },
@@ -105,7 +105,7 @@ var certificates = [
         issuer: "SoloLearn",
         issuerOn: "30 November 2019",
         expiresOn: "-",
-        image: "../img/certificates/C_2019_SOLOLEARN JavaScript.jpg",
+        image: "../assets/images/certificates/C_2019_SOLOLEARN JavaScript.jpg",
         link: "https://www.sololearn.com/Certificate/1024-11439316/jpg/",
         disabledButton: ""
     },
@@ -116,7 +116,7 @@ var certificates = [
         issuer: "SoloLearn",
         issuerOn: "06 December 2019",
         expiresOn: "-",
-        image: "../img/certificates/C_2019_SOLOLEARN JAVA.jpg",
+        image: "../assets/images/certificates/C_2019_SOLOLEARN JAVA.jpg",
         link: "https://www.sololearn.com/Certificate/1068-11439316/jpg/",
         disabledButton: ""
     },
@@ -127,7 +127,7 @@ var certificates = [
         issuer: "Dicoding Indonesia",
         issuerOn: "09 August 2019",
         expiresOn: "09 August 2022",
-        image: "../img/certificates/C_2019_Dicoding_Belajar Dasar Pemrograman Web.jpg",
+        image: "../assets/images/certificates/C_2019_Dicoding_Belajar Dasar Pemrograman Web.jpg",
         link: "https://www.dicoding.com/certificates/QGRX5V20RX0M",
         disabledButton: ""
     },
@@ -138,7 +138,7 @@ var certificates = [
         issuer: "SoloLearn",
         issuerOn: "28 December 2018",
         expiresOn: "-",
-        image: "../img/certificates/C_2018_SOLOLEARN CSS.jpg",
+        image: "../assets/images/certificates/C_2018_SOLOLEARN CSS.jpg",
         link: "https://www.sololearn.com/Certificate/1023-11439316/jpg/",
         disabledButton: ""
     },
@@ -149,7 +149,7 @@ var certificates = [
         issuer: "SoloLearn",
         issuerOn: "27 OCtober 2018",
         expiresOn: "-",
-        image: "../img/certificates/C_2018_SOLOLEARN HTML.jpg",
+        image: "../assets/images/certificates/C_2018_SOLOLEARN HTML.jpg",
         link: "https://www.sololearn.com/Certificate/1014-11439316/jpg/",
         disabledButton: ""
     },
@@ -160,7 +160,7 @@ var certificates = [
         issuer: "SoloLearn",
         issuerOn: "30 October 2018",
         expiresOn: "-",
-        image: "../img/certificates/C_2018_SOLOLEARN PHP.jpg",
+        image: "../assets/images/certificates/C_2018_SOLOLEARN PHP.jpg",
         link: "https://www.sololearn.com/Certificate/1059-11439316/jpg/",
         disabledButton: ""
     },
@@ -171,7 +171,7 @@ var certificates = [
         issuer: "Compfest",
         issuerOn: "29 September 2018",
         expiresOn: "-",
-        image: "../img/certificates/S_2018_Compfest Smart City.jpg",
+        image: "../assets/images/certificates/S_2018_Compfest Smart City.jpg",
         link: "#",
         disabledButton: "disabled"
     },
@@ -182,7 +182,7 @@ var certificates = [
         issuer: "Google Developer Group Depok",
         issuerOn: "October 2018",
         expiresOn: "-",
-        image: "../img/certificates/S_2018_GDGDEPOK DevFest.png",
+        image: "../assets/images/certificates/S_2018_GDGDEPOK DevFest.png",
         link: "#",
         disabledButton: "disabled"
     },
@@ -193,7 +193,7 @@ var certificates = [
         issuer: "JungleLand",
         issuerOn: "10 - 24 August 2017",
         expiresOn: "-",
-        image: "../img/certificates/C_2017_BYSF_Partisipant.jpg",
+        image: "../assets/images/certificates/C_2017_BYSF_Partisipant.jpg",
         link: "#",
         disabledButton: "disabled"
     }

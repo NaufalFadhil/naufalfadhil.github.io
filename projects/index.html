@@ -7,129 +7,134 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../assets/libraries/css/main.css">
     <title>Hello, world!</title>
 </head>
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../">Naufal Fadhil</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav d-flex">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../articles/">Article</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../projects/">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../certificates/">Certificate</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Features
-                            </a>
-                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../assets/">Asset</a></li>
-                                <li><a class="dropdown-item" href="../projects/">Project</a></li>
-                                <li><a class="dropdown-item" href="../supports/">Support</a></li>
-                                <li><a class="dropdown-item" href="../skills/">Skill</a></li>
-                                <li><a class="dropdown-item" href="../achievements/">Achievement</a></li>
-                                <li><a class="dropdown-item" href="../social-media/">Social Media</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="../">Naufal Fadhil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../articles/">Article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../projects/">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../certificates/">Certificate</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../assets/">Asset</a></li>
+                            <li><a class="dropdown-item" href="../projects/">Project</a></li>
+                            <li><a class="dropdown-item" href="../supports/">Support</a></li>
+                            <li><a class="dropdown-item" href="../skills/">Skill</a></li>
+                            <li><a class="dropdown-item" href="../achievements/">Achievement</a></li>
+                            <li><a class="dropdown-item" href="../link/">Social Media</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <main id="project-page" class="container mt-3">
+            <h1 class="text-center mt-3 mb-4">My Portofolio</h1>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="../assets/images/projects/personal-website.svg" class="card-img-top" alt="project image">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Personal Website</h4>
+                            <p class="card-text">Personal website for collect my portofolio in one site</p>
+                            <a href="https://github.com/naufalfadhil/naufalfadhil.github.io" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
+                            </a> 
+                            <a href="https://naufalfadhil.github.io/" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/HOSTED-%23000000.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
+                            </a> 
+                            <a href="https://naufalfadhil.netlify.app/" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/HOSTED-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
+                            </a> 
+                            <hr>
+                            <img alt="HTML" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+                            <img alt="CSS" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+                            <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+                            <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
+                            <img alt="BOOTSTRAP" src="https://img.shields.io/badge/bootstrap%205-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="../assets/images/projects/github-user.svg" class="card-img-top" alt="project image">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Github User</h4>
+                            <p class="card-text">Submission project <b>Learn Fundamental Android Application</b> Course at dicoding.com</p>
+                            <a href="https://github.com/NaufalFadhil/Android_Dicoding_GithubUser" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
+                            </a>
+                            <hr>
+                            <img alt="KOTLIN" src="https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+                            <img alt="API" src="https://img.shields.io/badge/API-005571?style=for-the-badge"/>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="https://naufalfadhil.notion.site/Google-University-0f942449a73b4b18bbee6f1dd57f6f92">
+                            <img src="../assets/images/projects/google-university.svg" class="card-img-top" alt="image project google university">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Google University</h4>
+                            <p class="card-text">Competition/Challenge at dicoding.com collaboration with IDCamp (Indosat Ooreedo Digital Camp)</p>
+                            <a href="https://github.com/NaufalFadhil/google-university" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
+                            </a> 
+                            <a href="https://naufalfadhil.github.io/google-university" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/HOSTED-%23000000.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
+                            </a>
+                            <hr>
+                            <img alt="HTML" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+                            <img alt="CSS" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+                            <img alt="BOOTSTRAP" src="https://img.shields.io/badge/bootstrap%205-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="../assets/images/projects/info-planet.svg" class="card-img-top" alt="project image">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Info Planet</h4>
+                            <p class="card-text">Submission project <b>Learn Make Android Application for Beginner</b> Course at dicoding.com</p>
+                            <a href="https://github.com/NaufalFadhil/Android_Dicoding_Planet" style="text-decoration: none;">
+                                <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
+                            </a> 
+                            <hr>
+                            <img alt="JAVA" src="https://img.shields.io/badge/java-black?style=for-the-badge&logo=java&logoColor=whitee"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
 
-    <div id="project-page" class="container mt-5">
-        <h1 class="text-center m-5">MY PORTOFOLIO</h1>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../img/projects/personal-website.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Personal Website</h4>
-                        <p class="card-text">Personal website for collect my portofolio in one site</p>
-                        <a href="https://github.com/naufalfadhil/naufalfadhil.github.io" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
-                        </a> 
-                        <a href="https://naufalfadhil.github.io/" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/HOSTED-%23000000.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
-                        </a> 
-                        <a href="https://naufalfadhil.netlify.app/" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/HOSTED-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
-                        </a> 
-                        <hr>
-                        <img alt="HTML" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-                        <img alt="CSS" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-                        <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-                        <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
-                        <img alt="BOOTSTRAP" src="https://img.shields.io/badge/bootstrap%205-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../img/projects/github-user.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Github User</h4>
-                        <p class="card-text">Submission project <b>Learn Fundamental Android Application</b> Course at dicoding.com</p>
-                        <a href="https://github.com/NaufalFadhil/Android_Dicoding_GithubUser" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
-                        </a>
-                        <hr>
-                        <img alt="KOTLIN" src="https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
-                        <img alt="API" src="https://img.shields.io/badge/API-005571?style=for-the-badge"/>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../img/projects/google-university.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Google University</h4>
-                        <p class="card-text">Competition/Challenge at dicoding.com collaboration with IDCamp (Indosat Ooreedo Digital Camp)</p>
-                        <a href="https://github.com/NaufalFadhil/google-university" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
-                        </a> 
-                        <a href="https://naufalfadhil.github.io/google-university" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/HOSTED-%23000000.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
-                        </a>
-                        <hr>
-                        <img alt="HTML" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-                        <img alt="CSS" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-                        <img alt="BOOTSTRAP" src="https://img.shields.io/badge/bootstrap%205-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../img/projects/info-planet.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Info Planet</h4>
-                        <p class="card-text">Submission project <b>Learn Make Android Application for Beginner</b> Course at dicoding.com</p>
-                        <a href="https://github.com/NaufalFadhil/Android_Dicoding_Planet" style="text-decoration: none;">
-                            <img alt="GITHUB" src="https://img.shields.io/badge/REPOSITORY-%23323330.svg?style=for-the-badge&logo=GITHUB&logoColor=white"/>
-                        </a> 
-                        <hr>
-                        <img alt="JAVA" src="https://img.shields.io/badge/java-black?style=for-the-badge&logo=java&logoColor=whitee"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="../assets/libraries/js/main.js"></script>
 </body>
 </html>
