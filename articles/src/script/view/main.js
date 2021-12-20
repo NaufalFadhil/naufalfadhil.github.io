@@ -9,7 +9,6 @@ var main = function () {
     };
 
     var renderResult = function (results) {
-        console.log("Berhasil");
         itemListElement.innerHTML = "";
         results.forEach(function (item) {
             var title = item.title;

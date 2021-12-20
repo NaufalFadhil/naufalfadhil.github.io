@@ -9,7 +9,6 @@ var main = function () {
     };
 
     var renderResult = function (results) {
-        console.log("Berhasil");
         certificateListElement.innerHTML = "";
         results.forEach(function (certificate) {
             var title = certificate.title;
