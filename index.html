@@ -197,8 +197,8 @@
                             <textarea name="message" id="yourMessage" cols="80%" rows="8" placeholder="Leave me your message here >_<" style="padding: 10px;"></textarea>
                         </div>
                         <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="anonymCheck">
-                            <label class="form-check-label nata-text" for="anonymCheck">Anonym? it will send to secreto.site</label>
+                            <input type="checkbox" class="form-check-input" id="anonymCheck" onClick="redirectToNGL(); return false">
+                            <label class="form-check-label nata-text" for="anonymCheck">Anonym?</label>
                         </div>
                         <button onclick="sendMail(); return false" class="btn btn-outline-primary">Submit</button>
                     </form>
